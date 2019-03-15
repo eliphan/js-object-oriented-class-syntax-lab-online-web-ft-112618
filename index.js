@@ -4,13 +4,13 @@ class BoardMember {
   this.homeState = homeState
   this.training = training
 }
-  veto = function(){
+  veto(){
     return 'No, I must disagree'
   }
-  BoardMember.prototype.approve = function(){
+  approve(){
     return 'You can do that!'
   }
-  BoardMember.prototype.doCharity = function(){
+  doCharity(){
     return "I like to help people."
   }
 
