@@ -1,9 +1,9 @@
 class BoardMember {
-  constructor(name, homeState, training){
+  constructor(name, homeState, training) {
   this.name = name
   this.homeState = homeState
   this.training = training
-}
+
 
   BoardMember.prototype.veto = function(){
     return 'No, I must disagree'
@@ -21,4 +21,5 @@ class BoardMember {
 
   BoardMember.prototype.sayHi = function(){
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
+  }
   }
