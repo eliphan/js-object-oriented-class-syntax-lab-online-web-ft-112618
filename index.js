@@ -1,4 +1,5 @@
-function BoardMember(name, homeState, training){
+class User {
+  constructorfunction BoardMember(name, homeState, training){
   this.name = name
   this.homeState = homeState
   this.training = training
